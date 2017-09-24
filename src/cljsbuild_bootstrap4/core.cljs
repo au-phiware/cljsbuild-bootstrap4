@@ -1,8 +1,8 @@
 (ns cljsbuild-bootstrap4.core
-  (:require [jquery] [bootstrap]))
+  (:require [bootstrap]))
 
 (enable-console-print!)
 
 (println "Hello world!")
 
-(-> ".alert" jquery (.alert "close"))
+(-> ".alert" js/jQuery (.alert "close"))
