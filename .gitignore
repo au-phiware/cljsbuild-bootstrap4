@@ -1,2 +1,3 @@
 /out/
 cljs.jar
+/node_modules/

@@ -1,4 +1,5 @@
-(ns cljsbuild-bootstrap4.core)
+(ns cljsbuild-bootstrap4.core
+  (:require [bootstrap]))
 
 (enable-console-print!)
 
